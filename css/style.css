@@ -1,0 +1,44 @@
+/* Tipografia */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/* Selecor Universal -> ****/
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Selector de Etiqueta */
+h1 {
+    font-family: 'Bad Script', sans-serif;
+}
+/* Selector Por Id -> ### */
+#word_one{
+    font-size: 30px;
+    color: purple;
+    font-weight: 900;
+    text-transform: uppercase; 
+    /* uppercase = transformar en mayuscula */
+}
+#list_options{
+    border: 1px solid red;
+    margin: 10px;
+    border-radius: 10px;
+}
+/* Selector Por Clase -> ...*/
+.word_group{
+    background-color: gray;
+    color: #fff;
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
+    /* margin-top: 10px; */
+    /* margin-bottom: 10px; */
+    margin: 10px;
+}
+/* Selector Por Atributo -> [][][]*/
+[disabled]{
+    background-color: aqua;
+}
+/* Pseudo Clases */
+.word_group:hover{
+    background-color: yellow;
+    padding: 5px;
+    /* con esto cuando pasemos el mouse sobre la palabra se resaltara de otro color y se hundira o sobre saldra */
+}
