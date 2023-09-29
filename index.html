@@ -4,25 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+        </style>
+    <link rel="stylesheet" href="../css/style_login.css">
 </head>
 <body>
-    <div>
-        <ul>
-            <li><a href="html/tablas.html"><h2>Ir a Tablas</h2></a></li>
-            <li><a href="html/form.html"><h2>Ir a Form</h2></a></li>
-            <li><a href="html/text.html"><h2>Ir a Texto</h2></a></li>
-            <li><a href="html/semantic.html"><h2>Ir a Semantica</h2></a></li>
-            <li><a href="html/agrupaciones.html"><h2>Ir a Agrupaciones</h2></a></li>
-            <li><a href="html/multimedia.html"><h2>Ir a Multimedia</h2></a></li>
-            <li><a href="html/estilos.html"><h2>Ir a Estilos</h2></a></li>
-            <li><a href="html/flexbox.html"><h2>Ir a FlexBox</h2></a></li>
-
-            <!-- shift+alt+flecha_abajo -> suplica una linea -->
-            <!-- crtl + shift + k -> eliminar linea -->
-            <!-- crtl + } -> hacer comentarios -->
-        </ul>
-    </div>
-
-    div>ul>
+    <!-- .background -->
+    <!-- .centering -->
+    <div class="background"></div>
+    <div class="centering"></div>
+    <!-- for.my_form -->
+    <form class="my_form">
+        <div class="login_welcome">
+            <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/dead-astronaut-deadly-accident-in-space-galaxy-mister-tee.jpg" alt="" class="login">
+            <h1>Iniciar Sesion</h1>
+        </div>
+        <div class="text_field">
+            <label for="">Email</label>
+            <input type="email" id="email" aria-label="Email" placeholder="Ingrese su Email" required>
+            <img src="./img/email-svgrepo-com.svg" alt="" title="Email Icon">
+        </div>
+        <div class="text_field">
+            <label for="">Password</label>
+            <input type="password" id="password" aria-label="Password" placeholder="Ingrese su Email" required>
+            <img src="https://www.svgrepo.com/show/84319/password.svg" alt="" title="Password Icon">
+        </div>
+        <input type="submit" class="my_form_button" value="login">
+        <div class="my_form_actions">
+            <div class="my_form_row">
+                <span>¿Olvidaste tu contraseña?</span>
+                <a href="#" title="Recuperar Contraseña">Recuperar Contraseña</a>
+            </div>
+            <div class="my_form-singup">
+                <a href="#" title="Crear Cuenta">Crear Cuenta</a>
+            </div>
+        </div>
+    </form>
 </body>
 </html>
